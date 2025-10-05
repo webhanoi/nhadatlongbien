@@ -5,14 +5,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Văn Phòng Nhà Đất Long Biên | Mua Bán Nhà Đất Uy Tín, Giá Tốt</title>
-  <meta name="description" content="Văn Phòng Nhà Đất Long Biên chuyên tư vấn, mua bán nhà đất uy tín. Nhà trong ngõ, đất đẹp, giá từ 3 đến 5 tỷ. Liên hệ Hotline 056 329 1023 để xem nhà ngay hôm nay!" />
-  <meta name="keywords" content="Nhà đất Long Biên, mua nhà trong ngõ Long Biên, mua nhà giá 3 tỷ Long Biên, mua nhà 5 tỷ Long Biên, mua nhà Long Biên, mua đất Long Biên, mua nhà giá rẻ Long Biên" />
+  <meta name="description" content="Văn Phòng Nhà Đất Long Biên chuyên tư vấn, mua bán nhà đất uy tín tại Hà Nội. Nhà trong ngõ, đất đẹp, giá từ 3 đến 10 tỷ. Liên hệ Hotline 056 329 1023 để xem nhà ngay!" />
+  <meta name="keywords" content="Nhà đất Long Biên, mua bán nhà đất, bất động sản Long Biên, nhà giá 3 tỷ, mua nhà Hà Nội, nhà đất chính chủ Long Biên" />
   <meta name="robots" content="index, follow" />
   <link rel="icon" href="https://i.postimg.cc/CMCVBDWB/5-B10-DDDF-330-B-4-E09-A69-C-01-AAA2618236.png" type="image/png">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Văn Phòng Nhà Đất Long Biên | Mua Bán Nhà Đất Uy Tín" />
-  <meta property="og:description" content="Chuyên tư vấn mua bán nhà đất Long Biên – Giá tốt, hỗ trợ tận tâm. Liên hệ Hotline 056 329 1023 để xem nhà ngay!" />
+  <meta property="og:description" content="Chuyên mua bán, ký gửi, tư vấn nhà đất tại Long Biên. Gọi ngay 056 329 1023 để xem nhà hôm nay!" />
   <meta property="og:image" content="https://i.postimg.cc/CMCVBDWB/5-B10-DDDF-330-B-4-E09-A69-C-01-AAA2618236.png" />
   <meta property="og:url" content="https://m.facebook.com/vanphongnhadatlongbien/" />
   <meta property="og:type" content="website" />
@@ -24,124 +24,83 @@
 
   <style>
     :root {
-      --accent:#007bff;       /* Xanh dương */
-      --accent2:#ff7f32;      /* Cam */
+      --accent:#007bff; /* Xanh dương */
+      --accent2:#ff7f32; /* Cam */
       --dark:#222;
       --muted:#555;
-      --maxw:1100px;
       font-family:"Roboto",Arial,sans-serif;
     }
+    body{margin:0;background:#fff;color:var(--dark);}
+    .wrap{max-width:1100px;margin:auto;padding:0 20px;text-align:center;}
 
-    body {margin:0;padding:0;background:#fff;color:var(--dark);}
-    .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px;text-align:center;}
-
+    /* NAV */
     nav{background:var(--accent);position:sticky;top:0;z-index:99;}
-    nav ul{margin:0;padding:10px;list-style:none;display:flex;justify-content:center;gap:20px;flex-wrap:wrap;}
+    nav ul{display:flex;justify-content:center;flex-wrap:wrap;gap:20px;list-style:none;padding:10px;margin:0;}
     nav a{color:#fff;text-decoration:none;font-weight:600;}
     nav a.zalo{background:var(--accent2);padding:6px 12px;border-radius:6px;}
-    nav a:hover{opacity:0.85;}
 
+    /* HEADER */
     header{padding:20px 0;}
-    h1{font-size:40px;margin:0 0 10px;}
-    p.lead{color:var(--muted);font-size:18px;margin:0 0 20px;}
+    h1{font-size:36px;margin-bottom:10px;}
+    p.lead{color:var(--muted);font-size:18px;margin-bottom:20px;}
 
+    /* HERO */
     .hero{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:20px;margin:20px 0;}
-    .hero img{width:100%;max-width:480px;height:auto;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.1);}
-    ul.features{list-style:none;padding:0;margin:20px 0;text-align:left;display:inline-block;}
-    ul.features li{padding:10px 0;font-size:20px;border-bottom:1px solid #eee;}
-    ul.features li::before{content:"🏠";color:var(--accent2);margin-right:10px;}
+    .hero img{width:100%;max-width:460px;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.1);}
+    ul.features{list-style:none;padding:0;text-align:left;display:inline-block;}
+    ul.features li{padding:8px 0;border-bottom:1px solid #eee;font-size:18px;}
+    ul.features li::before{content:"🏠";color:var(--accent2);margin-right:8px;}
 
-    .btn{padding:14px 22px;border-radius:8px;border:2px solid var(--accent);background:var(--accent);color:#fff;text-decoration:none;font-weight:600;transition: all 0.3s ease;}
+    /* BUTTONS */
+    .btn{padding:12px 18px;border-radius:8px;border:2px solid var(--accent);background:var(--accent);color:#fff;text-decoration:none;font-weight:600;transition:0.3s;}
     .btn:hover{background:#fff;color:var(--accent);}
     .btn.ghost{background:transparent;color:var(--accent);}
     .btn.ghost:hover{background:var(--accent);color:#fff;}
 
+    /* REVIEWS */
+    .reviews{margin:40px 0;}
+    .review-slider{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:15px;padding-bottom:10px;}
+    .review{flex:0 0 300px;background:#f9f9f9;border-radius:10px;padding:20px;text-align:left;scroll-snap-align:center;box-shadow:0 4px 8px rgba(0,0,0,0.05);}
+    .review h4{margin:0;color:var(--accent2);}
+    .review p{margin:10px 0 0;color:var(--muted);}
+    .stars{color:#ffb400;font-size:18px;}
+
+    /* FLOAT CALL BUTTON */
+    .call-now{position:fixed;bottom:20px;right:20px;background:var(--accent2);color:#fff;padding:14px 18px;border-radius:50%;font-size:24px;box-shadow:0 4px 10px rgba(0,0,0,0.3);display:none;z-index:999;}
+    @media (max-width:768px){.call-now{display:block;}}
+
+    /* BACK TO TOP */
+    #backToTop{position:fixed;bottom:80px;right:25px;background:var(--accent);color:#fff;border:none;padding:10px 14px;border-radius:8px;cursor:pointer;display:none;z-index:998;}
+    #backToTop:hover{background:var(--accent2);}
+
+    /* FOOTER */
     footer{background:#333;color:#fff;text-align:center;padding:30px 10px;margin-top:30px;}
     footer a{color:var(--accent2);text-decoration:none;font-weight:600;}
 
-    .footer-buttons {margin-top:20px;display:flex;justify-content:center;gap:15px;flex-wrap:wrap;background:#fff;padding:10px;border-top:1px solid #ddd;position:sticky;bottom:0;}
-    .footer-buttons .btn{padding:12px 20px;}
-
-    /* REVIEW SECTION */
-    .reviews {background:#f9f9f9;padding:40px 20px;border-radius:8px;margin-top:40px;}
-    .review-item {margin-bottom:25px;border-left:4px solid var(--accent2);padding-left:12px;text-align:left;}
-    .review-item h3{margin:0;color:var(--accent);}
-    .review-item p{margin:5px 0;color:var(--muted);}
-
-    /* NÚT LÊN ĐẦU TRANG */
-    #topBtn {
-      position: fixed; bottom: 80px; right: 25px;
-      background: linear-gradient(45deg, var(--accent), var(--accent2));
-      color: #fff; border: none; border-radius: 50%;
-      width: 50px; height: 50px; font-size: 22px; cursor: pointer;
-      display: none; transition: transform 0.3s ease, opacity 0.3s ease;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-      z-index: 999;
-    }
-    #topBtn:hover {transform: scale(1.1); opacity: 0.9;}
-
-    .fade-in {opacity:0;transform:translateY(30px);transition: all 0.8s ease-out;}
-    .fade-in.show {opacity:1;transform:translateY(0);}
+    .fade-in{opacity:0;transform:translateY(30px);transition:0.8s;}
+    .fade-in.show{opacity:1;transform:translateY(0);}
   </style>
 
-  <!-- SCHEMA LocalBusiness + Review + FAQ -->
+  <!-- SCHEMA -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "RealEstateAgent",
-    "name": "Văn Phòng Nhà Đất Long Biên",
-    "image": "https://i.postimg.cc/CMCVBDWB/5-B10-DDDF-330-B-4-E09-A69-C-01-AAA2618236.png",
-    "telephone": "+84563291023",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Số 24F Ngõ 5 Nguyễn Văn Cừ, Ngọc Lâm",
-      "addressLocality": "Long Biên",
-      "addressRegion": "Hà Nội",
-      "addressCountry": "VN"
+    "@context":"https://schema.org",
+    "@type":"RealEstateAgent",
+    "name":"Văn Phòng Nhà Đất Long Biên",
+    "image":"https://i.postimg.cc/CMCVBDWB/5-B10-DDDF-330-B-4-E09-A69-C-01-AAA2618236.png",
+    "telephone":"+84563291023",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"Số 24F Ngõ 5 Nguyễn Văn Cừ, Ngọc Lâm",
+      "addressLocality":"Long Biên",
+      "addressRegion":"Hà Nội",
+      "addressCountry":"VN"
     },
-    "geo": {"@type": "GeoCoordinates", "latitude": 21.0414638, "longitude": 105.8667355},
-    "url": "https://m.facebook.com/vanphongnhadatlongbien/",
-    "priceRange": "3 tỷ - 10 tỷ",
-    "openingHours": "Mo-Su 08:00-21:00",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "125"
-    },
-    "review": [{
-      "@type": "Review",
-      "author": "Minh Anh",
-      "reviewBody": "Nhân viên tư vấn nhiệt tình, giúp tôi mua được nhà giá hợp lý tại Long Biên!",
-      "reviewRating": {"@type": "Rating", "ratingValue": "5"}
-    },{
-      "@type": "Review",
-      "author": "Tuấn Nguyễn",
-      "reviewBody": "Dịch vụ chuyên nghiệp, hỗ trợ pháp lý rất nhanh gọn!",
-      "reviewRating": {"@type": "Rating", "ratingValue": "5"}
-    }]
-  }
-  </script>
-
-  <!-- FAQ SCHEMA -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [{
-      "@type": "Question",
-      "name": "Giá nhà tại Long Biên hiện nay bao nhiêu?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Nhà trong ngõ Long Biên hiện dao động từ 3 đến 10 tỷ tuỳ vị trí, diện tích và pháp lý."
-      }
-    },{
-      "@type": "Question",
-      "name": "Văn Phòng Nhà Đất Long Biên có uy tín không?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Chúng tôi có hơn 100+ khách hàng đánh giá 5 sao, luôn minh bạch, tận tâm và hỗ trợ trọn gói."
-      }
-    }]
+    "geo":{"@type":"GeoCoordinates","latitude":21.0414638,"longitude":105.8667355},
+    "openingHours":"Mo-Su 08:00-21:00",
+    "url":"https://m.facebook.com/vanphongnhadatlongbien/",
+    "areaServed":["Hà Nội","Long Biên","Gia Lâm"],
+    "priceRange":"3 tỷ - 10 tỷ"
   }
   </script>
 </head>
@@ -160,18 +119,19 @@
     <header class="fade-in">
       <h1>Văn Phòng Nhà Đất Long Biên</h1>
       <p class="lead">Chuyên mua bán – ký gửi – tư vấn nhà đất tại Long Biên.  
-      Hỗ trợ tận tâm, thông tin minh bạch, giá thương lượng trực tiếp với chủ.  
       📞 <strong>Hotline: 056 329 1023</strong></p>
     </header>
 
     <section class="hero fade-in" id="gioithieu">
       <img src="https://i.postimg.cc/CMCVBDWB/5-B10-DDDF-330-B-4-E09-A69-C-01-AAA2618236.png" alt="Văn Phòng Nhà Đất Long Biên" loading="lazy">
-      <ul class="features">
-        <li>Nhà trong ngõ, nhà phố, đất thổ cư chính chủ</li>
-        <li>Tư vấn giá thị trường và quy hoạch miễn phí</li>
-        <li>Hỗ trợ pháp lý, sổ đỏ, sang tên nhanh gọn</li>
-        <li>Giá chỉ từ 3 tỷ – 10 tỷ khu vực Long Biên</li>
-      </ul>
+      <div>
+        <ul class="features">
+          <li>Nhà trong ngõ, nhà phố, đất thổ cư chính chủ</li>
+          <li>Tư vấn giá thị trường và quy hoạch miễn phí</li>
+          <li>Hỗ trợ pháp lý, sổ đỏ, sang tên nhanh gọn</li>
+          <li>Giá chỉ từ 3 tỷ – 10 tỷ khu vực Long Biên</li>
+        </ul>
+      </div>
     </section>
 
     <section id="dichvu" class="fade-in">
@@ -182,19 +142,29 @@
          – Đăng tin ký gửi miễn phí cho chủ nhà</p>
     </section>
 
-    <section id="danhgia" class="reviews fade-in">
+    <section id="danhgia" class="fade-in reviews">
       <h2>⭐ Đánh giá từ khách hàng</h2>
-      <div class="review-item">
-        <h3>Minh Anh</h3>
-        <p>“Tư vấn nhiệt tình, hỗ trợ xem nhà tận nơi – rất hài lòng!”</p>
-      </div>
-      <div class="review-item">
-        <h3>Tuấn Nguyễn</h3>
-        <p>“Dịch vụ chuyên nghiệp, sang tên nhanh – giá cả minh bạch.”</p>
-      </div>
-      <div class="review-item">
-        <h3>Hồng Hạnh</h3>
-        <p>“Cảm ơn Văn Phòng Nhà Đất Long Biên, tôi đã mua được căn nhà ưng ý!”</p>
+      <div class="review-slider">
+        <div class="review">
+          <h4>Anh Minh</h4><div class="stars">★★★★★</div>
+          <p>Dịch vụ chuyên nghiệp, nhân viên hỗ trợ tận tình. Mua nhà nhanh hơn dự kiến!</p>
+        </div>
+        <div class="review">
+          <h4>Chị Hạnh</h4><div class="stars">★★★★★</div>
+          <p>Thông tin minh bạch, giá thương lượng trực tiếp với chủ. Rất hài lòng!</p>
+        </div>
+        <div class="review">
+          <h4>Anh Tuấn</h4><div class="stars">★★★★☆</div>
+          <p>Tư vấn rõ ràng, tận tâm. Sẽ giới thiệu bạn bè đến đây.</p>
+        </div>
+        <div class="review">
+          <h4>Cô Lan</h4><div class="stars">★★★★★</div>
+          <p>Mọi thủ tục pháp lý được hỗ trợ trọn gói, rất yên tâm!</p>
+        </div>
+        <div class="review">
+          <h4>Anh Dũng</h4><div class="stars">★★★★★</div>
+          <p>Giá tốt, hỗ trợ xem nhà nhanh. Dịch vụ tuyệt vời!</p>
+        </div>
       </div>
     </section>
 
@@ -205,34 +175,36 @@
       <p>🌐 Fanpage: <a href="https://m.facebook.com/vanphongnhadatlongbien/" target="_blank">facebook.com/vanphongnhadatlongbien</a></p>
       <p>🗺️ Bản đồ: <a href="https://maps.app.goo.gl/NH8ZLW7ChUqYFXx78" target="_blank">Xem vị trí trên Google Maps</a></p>
 
-      <div class="footer-buttons">
+      <div style="margin-top:20px;">
         <a class="btn" href="tel:0563291023">📞 Gọi Hotline</a>
         <a class="btn ghost" href="https://maps.app.goo.gl/NH8ZLW7ChUqYFXx78" target="_blank">🗺️ Xem bản đồ</a>
-        <a class="btn ghost" href="https://m.facebook.com/vanphongnhadatlongbien/" target="_blank">📍 Fanpage</a>
       </div>
-
-      <footer>
-        <p>© 2025 Văn Phòng Nhà Đất Long Biên | Hotline: <strong>056 329 1023</strong></p>
-      </footer>
     </section>
+
+    <footer>
+      <p>© 2025 Văn Phòng Nhà Đất Long Biên | Hotline: <strong>056 329 1023</strong></p>
+    </footer>
   </div>
 
-  <button id="topBtn" title="Lên đầu trang">⬆️</button>
+  <!-- FLOAT BUTTONS -->
+  <a href="tel:0563291023" class="call-now">📞</a>
+  <button id="backToTop">⬆</button>
 
   <script>
-    // Hiệu ứng cuộn mượt
-    document.addEventListener("DOMContentLoaded", () => {
-      const elements = document.querySelectorAll('.fade-in');
-      const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('show'); });
-      }, { threshold: 0.2 });
-      elements.forEach(el => observer.observe(el));
+    // Hiệu ứng cuộn mượt & hiện phần tử
+    document.addEventListener("DOMContentLoaded",()=>{
+      const els=document.querySelectorAll('.fade-in');
+      const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('show');});},{threshold:0.2});
+      els.forEach(el=>obs.observe(el));
     });
 
     // Nút lên đầu trang
-    const topBtn = document.getElementById("topBtn");
-    window.onscroll = () => topBtn.style.display = (document.documentElement.scrollTop > 300) ? "block" : "none";
-    topBtn.onclick = () => window.scrollTo({top:0, behavior:'smooth'});
+    const topBtn=document.getElementById("backToTop");
+    window.onscroll=function(){
+      if(document.documentElement.scrollTop>300){topBtn.style.display="block";}
+      else{topBtn.style.display="none";}
+    };
+    topBtn.onclick=function(){window.scrollTo({top:0,behavior:'smooth'});}
   </script>
 </body>
 </html>
